@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    border: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 19%, rgba(0,0,0,0.8001401244091386) 100%);
+}
+
+main{
+    width: 60vw;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .info-game{
+    width: 60%;
+    height: 20%;
+    background-color: #00000033;
+    border-bottom: 0.5em solid #000000a9;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    margin-top: 0;
+}
+
+main .info-game div{
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    margin-left: 0.5em;
+    color: #ffffffb4;
+    font-size: 3em;
+}
+
+main .info-game button{
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    margin-right: 2em;
+    padding: 1em;
+    border-radius: 40px;
+    background-color: #ffffffb4;
+    cursor: pointer;
+}
+
+main .info-game button:hover{
+    background-color: #ffffffef;
+}
+
+main .game-board{
+    width: 60%;
+    height: 80%;
+    background-color: #00000033;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+main .game-board .image{
+    width: 50%;
+    margin: auto;
+}
+
+main .game-board-back .back-card{
+    width: 50%;
+    margin: auto;
+}
+
+main .game-board .order-img{
+    width: 50%;
+}
+
+main .game-board .order-img:hover{
+    transform: scale(1.2, 1.2);
+}
+
+main .game-board-back{
+    width: 60%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+main .game-board-back .back-card:hover{
+    transform: scale(1.4,1.4);
+}
